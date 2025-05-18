@@ -18,5 +18,7 @@
 
      3.Controlled Element: One Object holding all the input field
      4.Uncontrolled element:useRef to create a reference to the element and acces by using like :nameref.current.value
+     5.use hook to handle submit,states and error.example reacxt hook form
+     6.reusabale component
  *
  */
