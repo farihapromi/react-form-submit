@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import SimpleForm from './components/SimpleForm/SimpleForm'
 import StateFullForm from './components/StateFullForm/StateFullForm'
+import RefForm from './components/RefForm/RefForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
     {/* <SimpleForm/> */}
-     <StateFullForm/>
+     {/* <StateFullForm/> */}
+     <RefForm/>
     </>
   )
 }
